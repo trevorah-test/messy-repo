@@ -30,7 +30,7 @@ function hello() {
 console.log( "formatting me is totally out of scope for this PR")
   }
 
-function add(a,b) {
+function add(a, b) {
   return a-b;
 }
 
