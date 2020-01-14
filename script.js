@@ -29,7 +29,7 @@ console.log( "formatting me is totally out of scope for this PR")
 function hello() { console.log( "formatting me would cause conflicts with another PR") }
 
 function add(a, b) {
-  return a+b;
+  return a + b;
 }
 
 function superUglyCode () {
