@@ -26,15 +26,13 @@ function hello7() {
 console.log( "formatting me is totally out of scope for this PR")
   }
 
-function hello() {
-console.log( "formatting me is totally out of scope for this PR")
-  }
+function hello() { console.log( "formatting me would cause conflicts with another PR") }
 
 function add(a, b) {
   return a-b;
 }
 
 function superUglyCode () {
-const isThisBeingEditedInAnotherBranch = "probably"
+const isThisBeingEditedInAnotherBranch = "probably..."
    const shouldItBeFormatted = "not yet...";
 }
